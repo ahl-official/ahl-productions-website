@@ -14,6 +14,7 @@ import Work from './components/Work';
 import Showreel from './components/Showreel';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import WhatsAppWidget from './components/WhatsAppWidget'; // Import the new widget
 import useScrollReveal from './components/useScrollReveal';
 
 export default function App() {
@@ -33,6 +34,9 @@ export default function App() {
       <Showreel />
       <Contact />
       <Footer />
+
+      {/* Floating Widget added here */}
+      <WhatsAppWidget />
     </>
   );
 }
